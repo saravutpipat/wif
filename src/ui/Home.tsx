@@ -9,16 +9,16 @@ export function Home() {
     <div className={styles.banner}>
       <Section>
         <h2>
-          $SOS Casino
+          $Welcome To WIFCasino
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
-          An open source, decentralized casino built on Gamba.
+        Your decentralized Solana casino, lightning fast and no registration needed!
         </p>
         <div style={{ display: 'flex', gap: '10px' }}>
           <Button
             as="a"
             color="white"
-            href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2mnGSkXH1h6x5qmhwoQzAZDKa83vnRf8wNkNWVbdv7w5&outputSymbol=%24S0S&fixed=in"
+            href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=xxxxxxxxxxxxxxx&outputSymbol=%24S0S&fixed=in"
             target="_blank"
             icon={<Icon.ExternalLink />}
           >

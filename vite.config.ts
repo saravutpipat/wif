@@ -27,9 +27,9 @@ export default defineConfig(() => ({
     }),
     VitePWA({
       base: '/',
-      includeAssets: ['/favicon.png'],
+      includeAssets: ['/logo.png'],
       manifest: {
-        name: 'Gamba Demo',
+        name: 'WIFCasino',
         short_name: 'Gamba',
         theme_color: '#FF5555',
         background_color: '#000000',
@@ -37,12 +37,12 @@ export default defineConfig(() => ({
         description: '',
         icons: [
           {
-            src: '/icon-512.png',
+            src: '/logo.png',
             sizes: '512x512',
             type: 'image/png',
           },
           {
-            src: '/icon-192.png',
+            src: '/logo.png',
             sizes: '192x192',
             type: 'image/png',
           },
