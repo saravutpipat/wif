@@ -9,7 +9,7 @@ export function Home() {
     <div className={styles.banner}>
       <Section>
         <h2>
-          $Welcome To WIFCasino
+          Welcome To WIFCasino
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
         Your decentralized Solana casino, lightning fast and no registration needed!
@@ -22,7 +22,7 @@ export function Home() {
             target="_blank"
             icon={<Icon.ExternalLink />}
           >
-            Buy $SOS
+            Buy $WiFC
           </Button>
         </div>
       </Section>
