@@ -43,6 +43,7 @@ function RecentPlay({ time, signature, result, isSelf }: RecentPlayProps) {
   const litScore = multiplier - 1
 
   return (
+    <a className={styles.play} >
       <div>
         <span className={styles.who}>
           {isSelf ? 'You' : 'Someone'}
@@ -63,6 +64,7 @@ function RecentPlay({ time, signature, result, isSelf }: RecentPlayProps) {
       <span>
         <TimeDiff time={time} /> <Icon.ExternalLink />
       </span>
+    </a>
   )
 }
 
