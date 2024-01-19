@@ -37,14 +37,6 @@ export function UserModal({ onClose }: Props) {
             Close Account
           </Button>
         )}
-        <Button
-          as="a"
-          icon={<Icon.ExternalLink />}
-          href="https://www.gamba.so/docs/account"
-          target="_blank"
-        >
-          More info
-        </Button>
       </div>
     </Modal>
   )
